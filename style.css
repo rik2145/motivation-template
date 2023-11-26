@@ -1,18 +1,27 @@
 img{
+              display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
               border: 10px solid;
               border-color: black;
-              margin-left: 285px;
+             
 }
 h1
 {
               text-align: center;
               color: aliceblue;
+              -webkit-text-stroke-width: 2px;
+              -webkit-text-stroke-color: black;
+              border-style: dashed;
              
-              
 }
 html{
               background-color: aqua;
 }
 p{
               text-align: center;
+              font-weight: 300;
+              font-size: large;
 }
